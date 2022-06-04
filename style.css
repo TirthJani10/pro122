@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto+Slab:wght@500&display=swap');
+body
+{
+	text-align: center;
+	font-family: 'Joan', serif;
+	background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+span
+{
+	font-size: 20px;
+	color: red;
+}
+canvas
+{
+	background: pink;
+	/* border-radius: 20px; */
+	position: absolute;
+	/* transform: translate(-50%, -50%); */
+	border: 10px solid transparent;
+	border-image:linear-gradient(45deg, #ff0, #f0f, #f00, #00f, #0f0) ;
+	border-image-slice:1;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+}
+
